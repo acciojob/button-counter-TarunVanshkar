@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        let [count, setCount] = useState(0);
+        let [count, setCount] = useState(0)
 
         function countClick(){
           setCount(count+1)
